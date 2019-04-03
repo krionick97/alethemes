@@ -114,7 +114,7 @@ class Aletheme_About_Widget extends WP_Widget
 			<?php echo $image->get_widget_field(); ?>
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e('Posts to show:', 'aletheme') ?></label>
+			<label for="<?php echo $this->get_field_id( 'text' ); ?>"><?php _e('Posts to show:', 'aletheme') ?></label>
 			<textarea class="widefat" cols="100" rows="5" id="<?php echo $this->get_field_id( 'text' ); ?>" name="<?php echo $this->get_field_name( 'text' ); ?>" ><?php echo $instance['text']; ?></textarea>
 		</p>
 	<?php
